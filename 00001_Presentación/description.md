@@ -1,4 +1,4 @@
-Queremos realizar una presentación en donde se destaquen nuestras cualidades:wink:, la misma debe tener:
+ムQueremos realizar una presentación en donde se destaquen nuestras cualidades:wink:, la misma debe tener:
 
 - un título `h1` con un tamaño de letra de `120px`, la tipografía de Google Fonts `Montserrat` y un grosor de letra de 800. El título debe decir: `¡Hola, soy Ada!` (con tu nombre).
 - un párrafo con un tamaño de letra de `48px`, la tipografía de Google Fonts `Poppins` y un grosor de letra de 600. El párrafo debe tener una breve descripción tuya, por ejemplo: `Primera programadora, matemática en mi tiempo libre y guitarrista`.

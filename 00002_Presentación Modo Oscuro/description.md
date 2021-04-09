@@ -1,1 +1,6 @@
-- Repetir el ejercicio anterior, pero poniéndole al `html` un color de fondo oscuro (por ejemplo: `#212121`) y un color de texto claro (por ejemplo: `#FAFAFA`).
+Para resaltar aún más nuestra presentación, vamos a agregarle un fondo oscuro :black_large_square: y un color de texto claro, los mismos deben ser:
+
+* para el fondo: `#212121`
+* para el texto: `#FAFAFA`
+
+> Agregá a la presentación los estilos que acabamos de describir.
