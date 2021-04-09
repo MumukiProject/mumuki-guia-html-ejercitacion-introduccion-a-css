@@ -20,8 +20,8 @@ it("Los párrafos tienen un tipografía Raleway",() => {
   document.querySelector('p').should.have.style('font-family', 'Raleway')
 })
 
-it("El primer párrafo tiene una oración en italica",() => {
-  document.querySelectorAll('p')[1].should.have.style('font', 'italic')
+it("El tercer párrafo está en italica",() => {
+  document.querySelectorAll('p')[3].should.have.style('font-style', 'italic')
 })
 
 /*#tests>*/
