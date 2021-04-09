@@ -2,8 +2,10 @@
 /*<tests#*/it("Se introdujo un título h1", () => {
   document.querySelector("h1").should.exist;
 })
-it ("El título h1 tiene un tamaño de letra de 120 px",() => {
-  document.querySelector("h1").font-size.eql(120)
+
+it ("El título h1 tiene un color #BE3969",() => {
+  document.querySelector('h1').should.have.style('color', '#BE3969')
+
 }) 
 
 it("Se introdujo un párrafo", () => {
