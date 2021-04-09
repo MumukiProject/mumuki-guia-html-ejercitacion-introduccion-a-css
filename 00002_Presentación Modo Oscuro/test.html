@@ -27,9 +27,9 @@ it("La tipografía del párrafo es Poppins",() => {
   document.querySelector('p').should.have.style('font-family', 'Poppins')
 })
 
-it ("Las palabras claves tienen un color #BE3969",() => {
+/*it ("Las palabras claves tienen un color #BE3969",() => {
   document.querySelector('p span').should.have.style('color', 'rgb(190, 57, 105)')
-}) 
+}) */
 
 it ("El color del fondo es #212121",() => {
   document.querySelector('body').should.have.style('background-color', 'rgb(33, 33, 33)')
@@ -37,6 +37,10 @@ it ("El color del fondo es #212121",() => {
 
 it ("El color del texto es #FAFAFA",() => {
   document.querySelector('p').should.have.style('color', 'rgb(250, 250, 250)')
+})
+
+it ("Las palabras claves tienen un color #BE3969",() => {
+  expect(document.querySelector('p span'), 'Esto está mal').to.have.style('color', 'rgb(190, 57, 105)',"Esto está mal")
 })
 /*#tests>*/
 /*<options#*/output_ignore_scripts: true
