@@ -35,8 +35,8 @@ it ("El color del fondo es #212121",() => {
   document.querySelector('body').should.have.style('background-color', 'rgb(33, 33, 33)')
 })
 
-it ("El color del texto es #FAFAFA",() => {
-  document.querySelector('p').should.have.style('color', 'rgb(250, 250, 250)')
+it ("Las palabras claves tienen un color #BE3969",() => {
+  expect(document.querySelector('p span'), 'Esto está mal').to.have.style('color', '#BE3969',"Esto está mal")
 })
 /*#tests>*/
 /*<options#*/output_ignore_scripts: true
