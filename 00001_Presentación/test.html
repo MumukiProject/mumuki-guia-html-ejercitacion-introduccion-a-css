@@ -1,4 +1,15 @@
 /*<output#*//*#output>*/
-/*<tests#*//*#tests>*/
+/*<tests#*/it("Se introdujo un título h1", () => {
+  document.querySelector("h1").should.exist;
+})
+
+/*it("Se introdujeron nueve párrafos p", () => {
+  document.getElementsByTagName("p").length.should.eql(9);
+})
+
+it("El título h1 dice Curso de desarrollo Frontend", () => {
+document.querySelector('h1').should.have.trimmed.text("Curso de desarrollo Frontend");
+})*/
+/*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
