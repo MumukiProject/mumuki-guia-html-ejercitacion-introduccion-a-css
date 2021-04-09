@@ -27,6 +27,9 @@ it("La tipografía del párrafo es Poppins",() => {
   document.querySelector('p').should.have.style('font-family', 'Poppins')
 })
 
+it ("Las palabras claves tienen un color rgb(190, 57, 105)",() => {
+  document.querySelectorAll('span').should.have.style('color', 'rgb(190, 57, 105)')
+}) 
 /*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
