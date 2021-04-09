@@ -1,4 +1,36 @@
 /*<output#*//*#output>*/
-/*<tests#*//*#tests>*/
+/*<tests#*/it("Se introdujo un título h1", () => {
+  document.querySelector("h1").should.exist;
+})
+
+
+it("La tipografía del título es Monserrat",() => {
+  document.querySelector('h1').should.have.style('font-family', 'Monserrat')
+})
+
+it("Se introdujo un párrafo", () => {
+  document.querySelector('p').should.exist;
+})
+
+it("El párrafo tiene un tamaño de 48px",() => {
+  document.querySelector('p').should.have.style('font-size', '48px')
+})
+
+it("La tipografía del párrafo es Poppins",() => {
+  document.querySelector('p').should.have.style('font-family', 'Poppins')
+})
+
+it ("Las palabras claves tienen un color #BE3969",() => {
+  document.querySelector('p span').should.have.style('color', 'rgb(190, 57, 105)')
+}) 
+
+it ("El color del fondo es #212121",() => {
+  document.querySelector('body').should.have.style('background-color', 'rgb(33, 33, 33)')
+})
+
+it ("El color del texto es #FAFAFA",() => {
+  document.querySelector('p').should.have.style('color', 'rgb(250, 250, 250)')
+})
+/*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
