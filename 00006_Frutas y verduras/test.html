@@ -28,7 +28,7 @@ it ("kiwi es de color verde",() => {
 })
 
 it ("manzana es de color rojo",() => {
-  document.querySelector('ul li.rojo').should.have.trimmed.text("manzana")
+  document.querySelectorAll('ul li.rojo')[0].should.have.trimmed.text("manzana")
 })
 
 /*it ("naranja es de color naranja",() => {
