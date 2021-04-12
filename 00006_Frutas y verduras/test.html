@@ -1,0 +1,23 @@
+/*<output#*//*#output>*/
+/*<tests#*/it("Se introdujo una clase rojo", () => {
+  document.querySelector('.rojo').should.exist;
+})
+
+it("Se introdujo una clase amarillo", () => {
+  document.querySelector('.amarillo').should.exist;
+})
+
+it("Se introdujo una clase verde", () => {
+  document.querySelector('.verde').should.exist;
+})
+
+it("Se introdujo una clase naranja", () => {
+  document.querySelector('.naranja').should.exist;
+})
+
+it (" 'manzana' es de color rojo",() => {
+  document.querySelectorAll('li'[0).should.have.style('color: red')
+})
+/*#tests>*/
+/*<options#*/output_ignore_scripts: true
+output_ignore_styles: true/*#options>*/

@@ -6,6 +6,6 @@ editor: multiple_files
 type: problem
 extra_visible: false
 teacher_info: ''
-manual_evaluation: true
+manual_evaluation: false
 choices: []
-name: Frutas
+name: Frutas y verduras
