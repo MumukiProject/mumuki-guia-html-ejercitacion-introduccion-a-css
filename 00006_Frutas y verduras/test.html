@@ -16,8 +16,9 @@ it("Se introdujo una clase naranja", () => {
 })
 
 it ("manzana es de color rojo",() => {
-  document.querySelector('ul li').should.have.class("rojo")
+  document.querySelector('ul li')[0].should.have.style('color',"rgb(190, 57, 105)")
 }) /*NO FUNCIONA */ 
+
 /*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
