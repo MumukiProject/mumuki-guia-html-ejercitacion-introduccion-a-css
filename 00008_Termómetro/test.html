@@ -1,5 +1,9 @@
 /*<output#*//*#output>*/
-/*<tests#*/it("Se introdujo una lista desordenada de once ítems", () => {
+/*<tests#*/it("Se introdujo una lista desordenada", () => {
+  document.querySelector("ul").should.exist;
+})
+
+it("La lista desordenada contiene once ítems", () => {
   document.getElementsByTagName("li").length.should.eql(11);
 })
 
