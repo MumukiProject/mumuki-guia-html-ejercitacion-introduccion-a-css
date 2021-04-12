@@ -4,7 +4,9 @@
 })
 
 it("Los caracteres del span son emojis", () => {
-  document.querySelectorAll("span")[0].should.match(/regex/);
+  let element = document.querySelectorAll("span")[0];
+  
+  assertTrue(element.matches(expectedRegex));
 })/*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
