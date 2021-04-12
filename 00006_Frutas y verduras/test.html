@@ -15,7 +15,7 @@ it("Se introdujo una clase naranja", () => {
   document.querySelector('.naranja').should.exist;
 })
 
-it ("manzana es de color rojo",() => {
+it ("los li con la clase rojo son del color #FF0000",() => {
   document.querySelector('ul li.rojo').should.have.style("color", "rgb(255, 0, 0)")
 })
 
@@ -27,9 +27,13 @@ it ("kiwi es de color verde",() => {
   document.querySelector('ul li.verde').should.have.style("color", "rgb(0, 143, 57)")
 })
 
-it ("naranja es de color naranja",() => {
+it ("manzana es de color rojo",() => {
+  document.querySelector('ul li.rojo').should.have.trimmed.text("manzana")
+})
+
+/*it ("naranja es de color naranja",() => {
   document.querySelector('ul li.naranja').should.have.style("color", "rgb(255, 128, 0)")
 })
-/*#tests>*/
+*//*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
