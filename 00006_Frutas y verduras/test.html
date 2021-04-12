@@ -16,7 +16,7 @@ it("Se introdujo una clase naranja", () => {
 })
 
 it ("manzana es de color rojo",() => {
-  document.querySelectorAll('ul li')[0].should.have.class('.rojo')
+  expect(document.querySelectorAll('ul li')[0]).to.have.class('.rojo')
 
 }) /*NO FUNCIONA */ 
 /*#tests>*/

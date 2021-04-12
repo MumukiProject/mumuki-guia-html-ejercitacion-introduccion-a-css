@@ -6,6 +6,6 @@ editor: multiple_files
 type: problem
 extra_visible: false
 teacher_info: ''
-manual_evaluation: false
+manual_evaluation: true
 choices: []
 name: Paleta de colores
