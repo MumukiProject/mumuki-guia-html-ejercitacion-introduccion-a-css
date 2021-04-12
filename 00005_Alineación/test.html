@@ -9,6 +9,18 @@ it("Se introdujo una clase derecha", () => {
 
 it("Se introdujo una clase centro", () => {
   document.querySelector('.centro').should.exist;
-})/*#tests>*/
+})
+
+it ("La clase izquierda alinea el texto hacia la izquierda",() => {
+  document.querySelector('.izquierda').should.have.style('text-align: left')
+})
+
+it ("La clase derecha alinea el texto hacia la derecha",() => {
+  document.querySelector('.derecha').should.have.style('text-align: right')
+}) 
+
+it ("La clase centro alinea el texto hacia el centro",() => {
+  document.querySelector('.centro').should.have.style('text-align: center')
+}) /*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
