@@ -3,6 +3,8 @@
   document.querySelectorAll("span").length.should.eql(10);
 })
 
-/*#tests>*/
+it("Los caracteres del span son emojis", () => {
+  document.querySelectorAll("span").dom.should.match(/regex/);
+})/*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
