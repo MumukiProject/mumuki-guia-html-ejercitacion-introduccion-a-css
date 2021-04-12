@@ -18,6 +18,18 @@ it("Se introdujo una clase naranja", () => {
 it ("manzana es de color rojo",() => {
   document.querySelector('ul li.rojo').should.have.style("color", "rgb(255, 0, 0)")
 })
+
+it ("banana es de color amarillo",() => {
+  document.querySelector('ul li.amarillo').should.have.style("color", "rgb(255, 255, 0)")
+})
+
+it ("kiwi es de color verde",() => {
+  document.querySelector('ul li.verde').should.have.style("color", "rgb(0, 143, 57)")
+})
+
+it ("naranja es de color naranja",() => {
+  document.querySelector('ul li.naranja').should.have.style("color", "rgb(255, 128, 0)")
+})
 /*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
