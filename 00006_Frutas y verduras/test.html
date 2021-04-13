@@ -1,30 +1,26 @@
 /*<output#*//*#output>*/
-/*<tests#*/it("Se introdujo una clase rojo", () => {
-  document.querySelector('.rojo').should.exist;
-})
-
-it("Se introdujo una clase amarillo", () => {
-  document.querySelector('.amarillo').should.exist;
-})
-
-it("Se introdujo una clase verde", () => {
-  document.querySelector('.verde').should.exist;
-})
-
-it("Se introdujo una clase naranja", () => {
-  document.querySelector('.naranja').should.exist;
-})
-
-it ("los li con la clase rojo son del color #FF0000",() => {
+/*<tests#*/it ("los li con la clase rojo son del color #FF0000",() => {
   document.querySelector('ul li.rojo').should.have.style("color", "rgb(255, 0, 0)")
 })
 
-it ("banana es de color amarillo",() => {
+it ("los li con la clase amarillo son del color #FFFF00",() => {
   document.querySelector('ul li.amarillo').should.have.style("color", "rgb(255, 255, 0)")
 })
 
-it ("kiwi es de color verde",() => {
+it ("los li con la clase verde son del color #008F39",() => {
   document.querySelector('ul li.verde').should.have.style("color", "rgb(0, 143, 57)")
+})
+
+it ("los li con la clase naranja son del color #FF8000",() => {
+  document.querySelector('ul li.naranja').should.have.style("color", "rgb(255, 128, 0)")
+})
+
+it ("manzana es de color rojo",() => {
+  document.querySelectorAll('ul li.rojo')[0].should.have.trimmed.text("manzana")
+})
+
+it ("zanahoria es de color naranja",() => {
+  document.querySelectorAll('ul li.naranja')[7].should.have.trimmed.text("zanahoria")
 })
 
 it ("manzana es de color rojo",() => {
