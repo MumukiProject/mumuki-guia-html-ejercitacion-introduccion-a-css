@@ -1,4 +1,4 @@
-- `index.html` debe tener:
+Necesitamos guardar las paletas de colores que más nos gustan para poder acceder a ellas cuando las necesitemos, el código HTML debe tener:
 
 - un título `h1` que diga: `Mis paletas`
 - 3 paletas de colores, que consisten en:
@@ -11,3 +11,5 @@
 - Cada ítem debe de tener de color de fondo el color que representa (por ejemplo, si representa el color negro, tener de color de fondo dicho color).
 - Tener en cuenta el contraste, si el color de fondo es muy oscuro, poner un color de letra claro, y viceversa.
 - Los colores de la primera paleta deben estar en sistema hexadecimal, los de la segunda en sistema rgb y los de la tercera en sistema hsl.
+
+> Creá el código que acabamos de describir.
