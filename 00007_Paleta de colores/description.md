@@ -6,8 +6,8 @@
   - una lista desordenada con 5 ítems
   - cada ítem debe tener como texto código del color, en el sistema correspondiente (por ejemplo, si es blanco y está en hexadecimal #FFFFFF)
 
-- Poner un tipografía distinta a la default.
-- Dar a los títulos un tamaño de fuente distinto al default.
+- Poner la tipografía de Google Fonts Monserrat.
+- Dar a los títulos un tamaño de fuente de 50px.
 - Cada ítem debe de tener de color de fondo el color que representa (por ejemplo, si representa el color negro, tener de color de fondo dicho color).
 - Tener en cuenta el contraste, si el color de fondo es muy oscuro, poner un color de letra claro, y viceversa.
 - Los colores de la primera paleta deben estar en sistema hexadecimal, los de la segunda en sistema rgb y los de la tercera en sistema hsl.
