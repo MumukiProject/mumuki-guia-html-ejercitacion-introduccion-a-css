@@ -1,4 +1,4 @@
-- `index.html` debe tener:
+Queremos graficar las temperaturas de un termómetro utilizando colores que las representen mediante un código HTML que debe tener:
 
 - una lista desordenada con 11 ítems.
 - la lista debe ir de `Temperatura: 0°C` a `Temperatura: 50°C` aumentando de a 5°C.
