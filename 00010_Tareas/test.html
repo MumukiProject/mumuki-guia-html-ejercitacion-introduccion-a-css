@@ -16,14 +16,13 @@ it("Se introdujeron seis elementos en línea span", () => {
   document.getElementsByTagName("span").length.should.eql(6);
 })
 
-it("Se introdujeron 20 elementos en línea span", () => {
-  document.getElementsByTagName("span").length.should.eql(20);
+it("Se introdujeron 6 elementos en línea span", () => {
+  document.getElementsByTagName("span").length.should.eql(6);
 })
 
 it("Los títulos tienen un tamaño de fuente de 25px",() => {
   document.querySelector('h1').should.have.style('font-size', '25px')
   document.querySelector('h2').should.have.style('font-size', '25px')
-  document.querySelector('h3').should.have.style('font-size', '25px')
 })
 /*#tests>*/
 /*<options#*/output_ignore_scripts: true
