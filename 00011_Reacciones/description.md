@@ -7,8 +7,8 @@
   - un elemento `p` con `lorem ipsum`.
   - 4 elementos en línea `span` que consistan en un emoji y un número, indicando la reacción y la cantidad de reacciones (por ejemplo: ❤️ 2 | 👍 4 | 👏 3 | 🔥 5)
 
-- Poner una tipografía distinta a la default.
-- Dar a los títulos un tamaño de fuente distinto al default.
-- Dar al nombre de usuaria un color que se distinga (azul/celeste, etc) y sacar el subrayado por default.
-- Dar a la fecha un tamaño de letra más pequeña y un color gris claro.
-- Separar los `span` con espacios y ponerle un color de fondo gris claro.
+- Poner la tipografía de Google fonts `Monserrat`.
+- Dar a los títulos un tamaño de fuente de `45px`.
+- Dar al nombre de usuaria un color que se distinga (#BE3969) y sacar el subrayado por default.
+- Dar a la fecha un tamaño de letra más pequeña y un color # 9b9b9b.
+- Separar los `span` con espacios y ponerle un color de fondo #9b9b9b.

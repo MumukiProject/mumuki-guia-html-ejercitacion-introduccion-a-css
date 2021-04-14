@@ -1,4 +1,37 @@
 /*<output#*//*#output>*/
-/*<tests#*//*#tests>*/
+/*<tests#*/it("Hay un título h2 que dice Comentarios", () => {
+  document.querySelector("h2").should.have.trimmed.text("Comentarios");
+})
+
+
+it("La tipografía del título es Monserrat",() => {
+  document.querySelector('h1').should.have.style('font-family', 'Monserrat')
+})
+
+it("El título tiene un tamaño de 100px",() => {
+  document.querySelector('h1').should.have.style('font-size', '100px')
+})
+
+it("Se introdujeron diez párrafos", () => {
+  document.getElementsByTagName("p").length.should.eql(10);
+})
+
+it("Se introdujeron cinco h3", () => {
+  document.getElementsByTagName("h3").length.should.eql(5);
+})
+
+it("Se introdujeron 20 elementos en línea span", () => {
+  document.getElementsByTagName("span").length.should.eql(20);
+})
+
+it("Los párrafos tienen un tipografía Monserrat",() => {
+  document.querySelector('p').should.have.style('font-family', 'Monserrat')
+})
+
+it("Los span tienen un color de fondo #9b9b9b",() => {
+  document.querySelectorAll('span').should.have.style('color', 'rgb(155, 155, 155)')
+})
+
+/*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
