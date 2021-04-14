@@ -4,11 +4,6 @@
 })
 
 
-it("La tipografía del título es Monserrat",() => {
-  document.querySelector('h1').should.have.style('font-family', 'Monserrat')
-})
-
-
 it("Se introdujeron diez párrafos", () => {
   document.getElementsByTagName("p").length.should.eql(10);
 })
@@ -26,7 +21,7 @@ it("Los párrafos tienen un tipografía Monserrat",() => {
 })
 
 it("Los span tienen un color de fondo #9b9b9b",() => {
-  document.querySelectorAll('span').should.have.style('color', 'rgb(155, 155, 155)')
+  document.querySelector('span').should.have.style('color', 'rgb(155, 155, 155)')
 })
 
 /*#tests>*/
