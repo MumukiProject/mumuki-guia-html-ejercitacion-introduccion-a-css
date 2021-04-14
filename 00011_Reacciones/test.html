@@ -8,9 +8,6 @@ it("La tipografía del título es Monserrat",() => {
   document.querySelector('h1').should.have.style('font-family', 'Monserrat')
 })
 
-it("El título tiene un tamaño de 100px",() => {
-  document.querySelector('h1').should.have.style('font-size', '100px')
-})
 
 it("Se introdujeron diez párrafos", () => {
   document.getElementsByTagName("p").length.should.eql(10);
