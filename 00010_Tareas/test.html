@@ -30,6 +30,9 @@ it ("las tareas con estado Haciendo tienen el color de fondo Naranja #FF8000",()
   document.querySelector('.haciendo').should.have.style("background-color", "rgb(255, 128, 0)")
 })
 
+it ("las tareas con estado Hecha tienen el color de fondo Verde #008F39",() => {
+  document.querySelector('.haciendo').should.have.style("background-color", "rgb(0, 143, 57)")
+})
 
 it ("las tareas con estado Cancelada tienen el color de fondo Rojo #FF0000",() => {
   document.querySelector('.cancelada').should.have.style("background-color", "rgb(255, 0, 0)")
