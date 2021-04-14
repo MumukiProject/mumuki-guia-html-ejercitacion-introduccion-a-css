@@ -22,8 +22,20 @@ it("Los títulos h1 y h2 tienen un tamaño de fuente de 25px",() => {
   document.querySelector('h2').should.have.style('font-size', '25px')
 })
 
-it ("las tareas con estado pendiente tienen el color de fondo azul #0000FF",() => {
+it ("las tareas con estado Pendiente tienen el color de fondo Azul #0000FF",() => {
   document.querySelector('.pendiente').should.have.style("background-color", "rgb(0, 0, 255)")
+})
+
+it ("las tareas con estado Haciendo tienen el color de fondo Naranja #FF8000",() => {
+  document.querySelector('.haciendo').should.have.style("background-color", "rgb(255, 128, 0)")
+})
+
+it ("las tareas con estado Hecha tienen el color de fondo Verde #008F39",() => {
+  document.querySelector('.haciendo').should.have.style("background-color", "rgb(0, 143, 57)")
+})
+
+it ("las tareas con estado Cancelada tienen el color de fondo Rojo #FF0000",() => {
+  document.querySelector('.cancelada').should.have.style("background-color", "rgb(255, 0, 0)")
 })
 /*#tests>*/
 /*<options#*/output_ignore_scripts: true
