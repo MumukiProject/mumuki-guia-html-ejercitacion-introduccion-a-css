@@ -26,4 +26,4 @@ Cobro de sueldo
 - Poner la tipografía de Google Fonts `Raleway`.
 - Dar a los títulos un tamaño de fuente distinto al default.
 - Dar a la fecha un tamaño de letra de 10px y un color #C8C8C8 utilizar la clase `fecha`.
-- Si el monto es un ingreso, debe tener un color verde (#008f39), si es una salida, debe tener un color rojo (#FF0000), utilizar clases, por ejemplo `class= "ingreso"`.
+- Si el monto es un ingreso, debe tener un color verde (#008F39), si es una salida, debe tener un color rojo (#FF0000), utilizar clases, por ejemplo `class= "ingreso"`.
