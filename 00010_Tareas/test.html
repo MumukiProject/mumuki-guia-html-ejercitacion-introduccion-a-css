@@ -22,8 +22,8 @@ it("Los títulos h1 y h2 tienen un tamaño de fuente de 25px",() => {
   document.querySelector('h2').should.have.style('font-size', '25px')
 })
 
-it ("las tareas con estado pendiente tienen el color #0000FF",() => {
-  document.querySelector('.pendiente').should.have.style("color", "rgb(0, 255, 255)")
+it ("las tareas con estado pendiente tienen el color de fondo azul #0000FF",() => {
+  document.querySelector('.pendiente').should.have.style("background-color", "rgb(0, 255, 255)")
 })
 /*#tests>*/
 /*<options#*/output_ignore_scripts: true
