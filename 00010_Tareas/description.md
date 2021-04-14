@@ -22,8 +22,8 @@ Pasear al perro
 Hecha
 ```
 
-- Poner un tipografía distinta a la default.
-- Dar a los títulos un tamaño de fuente distinto al default.
+- Poner a los títulos la tipografía de Google Fonts `Poppins`.
+- Dar a los títulos un tamaño de fuente de `25px`.
 - Dar a la fecha un tamaño de letra más pequeña y un color gris claro.
 - Poner a cada estado un color de fondo distinto, siguiendo el siguiente criterio:
   - Pendiente: Azul
