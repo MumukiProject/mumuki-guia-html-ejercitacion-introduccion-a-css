@@ -3,7 +3,7 @@ Necesitamos guardar las paletas de colores que más nos gustan para poder accede
 - un título `h1` que diga: `Mis paletas`
 - 3 paletas de colores, que consisten en:
   - un título `h2` con el nombre de la paleta (por ejemplo: `Moderna`)
-  - una lista desordenada con 5 ítems
+  - una lista desordenada con 5 ítems;
   - cada ítem debe tener como texto código del color, en el sistema correspondiente (por ejemplo, si es blanco y está en hexadecimal #FFFFFF)
 
 - Poner la tipografía de Google Fonts Monserrat.
