@@ -6,6 +6,6 @@ Queremos escribir un artículo usando HTML :newspaper2:, el mismo debe contener:
   - el primer párrafo debe tener una oración en itálica; 
   - el segundo párrafo debe tener una oración en negrita; 
   - el tercer párrafo debe estar completamente en itálica;
-  - el cuarto párrafo debe tener la primer palabra en negrita y la última palabra en itálica.
+  - el cuarto párrafo debe tener la primera palabra en negrita y la última palabra en itálica.
 
 > Creá el código HTML que acabamos de describir.
