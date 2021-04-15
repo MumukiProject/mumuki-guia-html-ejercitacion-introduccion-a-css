@@ -32,4 +32,6 @@ Tener en cuenta las siguientes consideraciones:
   - Hecha: Verde
   - Cancelada: Rojo
 
-Las clases deben tener el mismo nombre que el estado, por ejemplo: ` class= "pendiente"`
+Las clases deben tener el mismo nombre que el estado, por ejemplo: `class= "pendiente"`.
+
+> Creá el código HTML que acabamos de describir.
