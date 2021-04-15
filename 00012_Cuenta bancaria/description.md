@@ -7,22 +7,7 @@ Modelemos una cuenta bancaria :bank:, que contenga:
   - un elemento `p` con la fecha de la operación;
   - un elemento `p` con el monto de la operación, con un signo más (+) adelante si ingresó dinero o un signo menos (-) si salió dinero de la cuenta.
   
-Por ejemplo:
-
-```
-Mi cuenta
-Últimos movimientos
-
-Transferencia a Grace
-01/05/2020
-- $1000
-
-
-Cobro de sueldo
-01/05/2020
-+ $30000
-```
-Tener en cuenta las siguientes consideraciones:
+Tené en cuenta las siguientes consideraciones:
 
 - poner la tipografía de Google Fonts `Raleway`;
 - dar a los títulos un tamaño de fuente distinto al default;
