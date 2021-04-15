@@ -21,7 +21,7 @@ Haciendo
 Pasear al perro
 Hecha
 ```
-Tener en cuenta las siguientes consideraciones:
+Tené en cuenta las siguientes consideraciones:
 
 - poner a los títulos la tipografía de Google Fonts `Poppins`;
 - dar a los títulos h1 y h2 un tamaño de fuente de `25px`;
