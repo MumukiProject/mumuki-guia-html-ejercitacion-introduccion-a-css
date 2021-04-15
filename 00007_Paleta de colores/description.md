@@ -14,4 +14,4 @@ Es necesario tener en cuenta las siguientes consideraciones:
 - se debe considerar el contraste, si el color de fondo es muy oscuro, poner un color de letra claro, y viceversa;
 - los colores de la primera paleta deben estar en sistema hexadecimal, los de la segunda en sistema rgb y los de la tercera en sistema hsl.
 
-> Creá el código que acabamos de describir.
+> Este ejercicio debés realizarlo por fuera de la plataforma. Al finalizar, cargá el repositorio con los correspondientes archivos.
