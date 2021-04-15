@@ -1,15 +1,17 @@
-Necesitamos guardar las paletas de colores que más nos gustan para poder acceder a ellas cuando las necesitemos, el código HTML debe tener:
+Necesitamos guardar las paletas de colores :paintbrush: que más nos gustan para poder acceder a ellas cuando las necesitemos, el código HTML debe tener:
 
-- un título `h1` que diga: `Mis paletas`
+- un título `h1` que diga: `Mis paletas`;
 - 3 paletas de colores, que consisten en:
-  - un título `h2` con el nombre de la paleta (por ejemplo: `Moderna`)
+  - un título `h2` con el nombre de la paleta (por ejemplo: `Moderna`);
   - una lista desordenada con 5 ítems;
-  - cada ítem debe tener como texto código del color, en el sistema correspondiente (por ejemplo, si es blanco y está en hexadecimal #FFFFFF)
+  - cada ítem debe tener como texto código del color, en el sistema correspondiente (por ejemplo, si es blanco y está en hexadecimal `#FFFFFF`).
 
-- Poner la tipografía de Google Fonts Monserrat.
-- Dar a los títulos un tamaño de fuente de 50px.
-- Cada ítem debe de tener de color de fondo el color que representa (por ejemplo, si representa el color negro, tener de color de fondo dicho color).
-- Tener en cuenta el contraste, si el color de fondo es muy oscuro, poner un color de letra claro, y viceversa.
-- Los colores de la primera paleta deben estar en sistema hexadecimal, los de la segunda en sistema rgb y los de la tercera en sistema hsl.
+Es necesario tener en cuenta las siguientes consideraciones:
+
+- la tipografía de los títulos debe ser `Monserrat` de Google Fonts;
+- los títulos deben tener un tamaño de fuente de `50px`;
+- cada ítem debe tener como color de fondo el color que representa (por ejemplo, si representa el color negro, tener de color de fondo dicho color);
+- se debe considerar el contraste, si el color de fondo es muy oscuro, poner un color de letra claro, y viceversa;
+- los colores de la primera paleta deben estar en sistema hexadecimal, los de la segunda en sistema rgb y los de la tercera en sistema hsl.
 
 > Creá el código que acabamos de describir.
