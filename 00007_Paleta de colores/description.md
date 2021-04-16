@@ -1,4 +1,4 @@
-Necesitamos guardar las paletas de colores :paintbrush: que más nos gustan para poder acceder a ellas cuando las necesitemos, el código HTML debe tener:
+Necesitamos guardar las paletas de colores :art: que más nos gustan para poder acceder a ellas cuando las necesitemos, el código HTML debe tener:
 
 - un título `h1` que diga: `Mis paletas`;
 - 3 paletas de colores, que consisten en:
