@@ -1,4 +1,4 @@
-Queremos dibujar un paisaje con perspectiva :eyes: para eso, vamos a crear un código HTML que contenga:
+Queremos dibujar un paisaje con perspectiva :star_struck: para eso, vamos a crear un código HTML que contenga:
 
 - 10 elementos en línea `span`, que deben contener cada uno un emoji  (por ejemplo, de árboles y/o edificios). Por ejemplo: 
 `🌲🌳🌳🏠🏢🏦🏠🏠🌲🌳`;
